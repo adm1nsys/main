@@ -1080,7 +1080,7 @@ bottom: 0;
   line-height: 1;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  width: 50%;
+  width: 70%;
   height: 50%;
 border-radius: 50px 15px 50px 15px;
 }
