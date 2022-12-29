@@ -10,6 +10,7 @@
 
 html{
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 
@@ -1086,23 +1087,23 @@ border-radius: 50px 15px 50px 15px;
 
 .c1-1{
 /*  content: "";*/
-  width: 100%;
+/*  width: 100%;
   height: 100%;
-    border-radius: 50px; /*1*/
-  border: 10px solid transparent; /*2*/
+    border-radius: 50px; 
+  border: 10px solid transparent; 
   border-image: linear-gradient(to left top,white 10%,  transparent 30%, transparent 70%, white 90%) border-box; 
-  -webkit-mask: /*4*/
+  -webkit-mask: 
      linear-gradient(#fff 0 0) padding-box, 
      linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor; /*5'*/
-          mask-composite: exclude; /*5*/
+  -webkit-mask-composite: xor; 
+          mask-composite: exclude; */
 /*            padding: 20px 40px;*/
 /*            align-items: center;*/
 
 
 }
 
-h1{
+.h1-1{
   font-size: 50px;
   padding-right: 30%;
   filter: invert(0);
@@ -1143,14 +1144,28 @@ width: 50%;
 
 
 
+input.set { display:none; }
 
+#slide1:checked ~ .mask .overflow { margin-left:0; }
+#slide2:checked ~ .mask .overflow { margin-left:-100%; }
+#slide3:checked ~ .mask .overflow { margin-left:-200%; }
+#slide4:checked ~ .mask .overflow { margin-left:-300%; }
 
+#slides { width:100%; height: 100%; position:relative; color: white; text-align: center; }
 
+#slides .mask { width:90%; height: 100%; overflow:hidden; margin:auto; }
 
+#slides .overflow { width:400%;height: 100%; -webkit-transform:translateZ(0); -webkit-transition:all 0.5s ease-out; -moz-transition:all 0.5s ease-out; -o-transition:all 0.5s ease-out; transition:all 0.5s ease-out; }
 
+#slides .slide { width:25%; height:100%; line-height:200px; float:left; background:rgba(0, 0, 0, 0); display: flex;
+  align-items: center; justify-content: center;}
 
+#controls { width:100%; }
 
+#controls label { display:none; width:10%; min-width: 50px; max-width: 70px; height:50%; opacity:0.3; position:absolute; top:25%; margin-top:0px; cursor:pointer; background:#000; border-radius: 0px 15px 0px 15px; border: 4px solid transparent; border-color: white;}
 
+#controls label:hover { opacity:0.8; }
 
+#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4) { right:0; display:block; }
 
-
+#slide2:checked ~ #controls label:nth-child(1), #slide3:checked ~ #controls label:nth-child(2), #slide4:checked ~ #controls label:nth-child(3) { left:0; display:block; }
