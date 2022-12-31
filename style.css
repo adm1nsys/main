@@ -90,11 +90,11 @@ body {
   opacity: 0.3;
 }
 
-@media (max-width: 380px) {
+/* @media (max-width: 380px) {
   .text3{
     display: none;
   }
-}
+} */
 
 @media (max-height: 380px) {
   .text3{
