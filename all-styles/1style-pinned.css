@@ -207,6 +207,12 @@
 
 
 .center1{
+      -webkit-touch-callout: auto; /* iOS Safari  */
+  -webkit-user-select: auto;   /* Chrome/Safari/Opera */
+  -khtml-user-select: auto;    /* Konqueror */
+  -moz-user-select: auto;      /* Firefox */
+  -ms-user-select: auto;       /* Internet Explorer/Edge */
+  user-select: auto;           /* Non-prefixed version, currently not supported by any browser */
     display: flex;
     justify-content: center;
     align-items: center;
