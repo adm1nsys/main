@@ -161,6 +161,14 @@ border-radius: 50px 15px 50px 15px;
   }
 }
 
+@media (max-height: 520px) {
+  .c1{
+    font-size: 30px;
+    height: 80%;
+    mix-blend-mode: normal;
+  }
+}
+
 
 
 .title-pr{
@@ -176,6 +184,14 @@ color: white;
 @media (max-width: 920px) {
   .title-pr{
     width: 80%;
+    mix-blend-mode: normal;
+  }
+}
+
+@media (max-height: 520px) {
+  .title-pr{
+    font-size: 30px;
+    height: 30px;
     mix-blend-mode: normal;
   }
 }
