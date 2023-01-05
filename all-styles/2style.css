@@ -164,7 +164,7 @@ border-radius: 50px 15px 50px 15px;
 @media (max-height: 520px) {
   .c1{
     font-size: 30px;
-    height: 80%;
+    height: 70%;
     mix-blend-mode: normal;
   }
 }
