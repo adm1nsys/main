@@ -390,7 +390,7 @@ text-decoration: none;
 color: white;
 }
 
-@font-face { font-family: Gilroy; src: url('Gilroy.ttf'); } 
+@font-face { font-family: Samsung Sharp Sans; src: url('samsungsharpsans-bold.otf'); } 
 body {
 margin: 0;
 background: black;
@@ -404,7 +404,7 @@ overflow-x:hidden;
 user-select: none;           /* Non-prefixed version, currently not supported by any browser */
 /*  cursor: none;*/
 /*cursor: auto;*/
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 }
 
 @media (max-height: 319px) {
@@ -557,7 +557,7 @@ height: 70px;
 width: 40px;
 cursor: pointer;
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 
 }
 
@@ -578,7 +578,7 @@ height: 70px;
 width: 40px;
 cursor: pointer;
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 cursor: crosshair;
 }
 
@@ -609,7 +609,7 @@ height: 70px;
 width: 40px;
 cursor: pointer;
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 cursor: crosshair;
 }
 
@@ -632,7 +632,7 @@ height: 70px;
 width: 40px;
 cursor: pointer;
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 cursor: crosshair;
 }
 
@@ -664,7 +664,7 @@ width: 40px;
 /*  cursor: pointer;*/
 cursor: crosshair;
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 }
 
 
@@ -686,7 +686,7 @@ height: 70px;
 width: 40px;
 /*  cursor: pointer;*/
 display: fixed;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 cursor: crosshair;
 }
 
@@ -1076,6 +1076,20 @@ left: 0px;
 color: gray;
 font-size: 0.8em;
 z-index: 9999999999;
+font-family: Samsung Sharp Sans;
+opacity: 0;
+}
+
+.vers:hover {
+display: flex;
+position: fixed;
+bottom: 0px;
+left: 0px;
+color: gray;
+font-size: 0.8em;
+z-index: 9999999999;
+font-family: Samsung Sharp Sans;
+opacity: 1;
 }
 
 
@@ -1094,7 +1108,7 @@ background-position: center;
 
 width: 100%;
 height: 100vh;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 
 position: relative;
 width: 100%;
@@ -1169,7 +1183,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 height: 100vh;
-font-family: Gilroy;
+font-family: Samsung Sharp Sans;
 }
 
 .c1{
@@ -1406,6 +1420,7 @@ text-decoration: underline;
 }
 
 .sb1 {
+font-family: Samsung Sharp Sans;
 -webkit-backdrop-filter: blur(25px);
 backdrop-filter: blur(25px);
 border-radius: 999px;
@@ -1429,6 +1444,7 @@ cursor: crosshair;
 }
 
 .sb1:hover {
+font-family: Samsung Sharp Sans;
 border-radius: 999px;
 border: 3px solid;
 border-color: white;
@@ -1489,52 +1505,61 @@ position: absolute;
 .pcwindow{
 display: block;
 }
+.mobwindow{
+display: block;
+}
 
-@media (max-width: 558px) {
+/*@media (max-width: 558px) {
 .pcwindow{
 display: none;
 }
-}
-@media (max-height: 750px) {
-.pcwindow{
-display: none;
+.mobwindow{
+display: block;
 }
 
-/*@media (min-width: 558px) {
-.pcwindow{
-display: block;
-}
-}
-@media (min-height: 750px) {
-.pcwindow{
-display: block;
 }*/
+@media (max-width: 558px) {
+.pcwindow{
+display: none;
+}
 
 .mobwindow{
 display: block;
 }
-
-@media (max-width: 558px) {
-.mobwindow{
-display: none;
-}
-}
-@media (max-height: 750px) {
-.mobwindow{
-display: none;
 }
 
 @media (min-width: 558px) {
+.pcwindow{
+display: block;
+}
+
+.mobwindow{
+display: none;
+}
+}
+
+@media (max-height: 750px) {
+.pcwindow{
+display: none;
+}
+
 .mobwindow{
 display: block;
 }
 }
+
 @media (min-height: 750px) {
-.mobwindow{
+.pcwindow{
 display: block;
 }
+
+.mobwindow{
+display: none;
 }
-@font-face { font-family: Gilroy; src: url('Gilroy.ttf'); } 
+}
+
+
+@font-face { font-family: Samsung Sharp Sans; src: url('samsungsharpsans-bold.otf'); } 
 
 .mb1{
   position: revert;
@@ -1554,7 +1579,7 @@ position: relative;
   width: 15vh;
   height: 8vh;
   font-size: 0.8em;
-  font-family: Gilroy;
+  font-family: Samsung Sharp Sans;
 }
 </style>
 <!-- END OF Display Settings -->
@@ -2119,7 +2144,7 @@ function myFunction1() {
 <!-- END OF Logo ADMIN inc. -->
 
 <!-- Title ADMIN inc. & I'm a -->
-<p><strong class="text1">ADMIN</strong><strong class="text2">inc.</strong></p>
+<p><strong class="text1">ADMIN</strong><strong style="width:5px; height:5px; background-color:black; opacity: 0;"></strong><strong class="text2">inc.</strong></p>
 <p class="text3"><span class="element"></span></p>
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/administrati0n/main/main/img/logo.png">
 <!-- END OF Title ADMIN inc. & I'm a -->
