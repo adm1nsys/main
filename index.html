@@ -980,6 +980,9 @@ var output = ["CPU0 microcode updated early to revision 0x1b, date = 2014-05-29"
   setTimeout(function(){
     $('body').addClass('loaded');
     $('h1').css('color','#222222');
+    var audio = new Audio(); 
+  audio.src = 'LoadSound.mp3'; 
+  audio.autoplay = true; 
   }, 16000);
   
 });
