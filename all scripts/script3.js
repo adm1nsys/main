@@ -6,6 +6,6 @@
     var audio = new Audio(); // Создаём новый элемент Audio
   audio.src = 'LoadSound.mp3'; // Указываем путь к звуку "клика"
   audio.autoplay = true; // Автоматически запускаем
-  }, 16000);
+  }, 22000);
   
 });
