@@ -9,7 +9,7 @@
   // Указываем путь к звуку
   // audio.autoplay = true; 
   // Автоматически запускаем
-var audio = new Audio();
+var audio = newAudio();
 audio.preload = 'auto';
 audio.src = 'LoadSound.mp3';
 audio.play();
