@@ -13,6 +13,10 @@ var audio = new Audio();
 audio.preload = 'auto';
 audio.src = 'LoadSound.mp3';
 audio.play();
+    var audio = new Audio();
+audio.preload = 'auto';
+audio.src = 'LoadSound.mp3';
+audio.play();
   }, 16000);
   
 });
