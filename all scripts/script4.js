@@ -65,6 +65,10 @@ function feedbacker() {
         feedbacker();
       else {
         textarea.append("<br>Booting...<br>");
+        var audio = newAudio();
+audio.preload = 'auto';
+audio.src = 'LoadSound.mp3';
+audio.play();
           document.getElementById("s1").scrollTo(0, document.body.scrollHeight); 
         setTimeout(function() {$(".load").fadeOut(1000);}, 2500);
         document.getElementById("cursor0").style.cursor = "auto";
