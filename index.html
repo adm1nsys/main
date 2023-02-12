@@ -213,6 +213,10 @@ dynamicIsland.onclick = () => {
 function myFunction2() {
     var x = document.getElementById("cursor1");
   if (x.style.opacity === "0") {
+   var audio = new Audio();
+audio.preload = 'auto';
+audio.src = 'LoadSound.mp3';
+audio.play();
     x.style.opacity = "1";
     x.style.cursor = "none";
     document.getElementById("cursor0").style.cursor = "none";
