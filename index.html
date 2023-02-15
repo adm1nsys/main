@@ -1,0 +1,678 @@
+<!-- 
+It's Main Page of ADMIN inc.
+It's OpenSource Project and you can copy my code to your projects.
+I left comments on the code so you can navigate through the code and use the content.
+In this website you can find many free Projects which you can use in your Projects.
+If you find bugs please type me. georgeiv14@icloud.com  
+If you like my work please donate.
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADMIN inc.</title>
+
+<!--  -->
+<link rel="stylesheet" type="audio/mpeg" href="all scripts/LoadSound.mp3">
+    <source src="LoadSound.mp3" type="audio/mpeg">
+    <source src="all scripts/LoadSound.mp3" type="audio/mpeg">
+<!--  -->
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="all styles/header1page.css">
+<link rel="stylesheet" type="text/css" href="all styles/settings.css">
+<link rel="stylesheet" type="text/css" href="all styles/pinned.css">
+<link rel="stylesheet" type="text/css" href="all styles/projects2page.css">
+<link rel="stylesheet" type="text/css" href="all styles/displaysettings.css">  
+<link rel="stylesheet" type="text/css" href="all styles/LoadScreen.css">
+<!-- END OF Link CSS -->
+
+
+
+  <!-- Links JS -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src="all scripts/script1.js"></script>
+  <!-- <script src="all scripts/script2.js"></script> -->
+
+  <!-- END OF Link JS -->
+
+
+
+  <!-- Links icon Website -->
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+  <link rel="icon" href="img/logo2.png" sizes="32x32">
+  <link rel="icon" href="img/logo2.png" sizes="48x48">
+  <link rel="icon" href="img/logo2.png" sizes="96x96">
+  <link rel="icon" href="img/logo2.png" sizes="144x144">  
+  <!-- END OF Links icon Website -->
+
+
+
+</head>
+<body onload="new Audio()" id="body1">
+<div style="width:0.01px; height:0.01px" id="a1"></div>
+<!-- Version -->
+<div class="vers">Version 0.2 Public beta 2</div>
+<!-- END OF Version -->
+
+
+
+
+
+
+  <!-- <script src="all scripts/script3.js"></script> -->
+
+
+    <div id="loader-wrapper">
+      <div id="loader">
+        <div style="overflow-y: hidden; height:100%; width: 100%; display: flex; position: relative; top: 0px;" id="s1">
+<div class="load">
+  <pre class="term">admin@dev:~$ </pre>
+</div>
+</div>
+<div style="
+display: flex;
+position: absolute;
+background-image: url('img/logo.png'); 
+background-size: contain;
+width: 100%;
+background-position: center;
+height: 200px;
+background-repeat: no-repeat;
+display: flex;
+position: absolute;
+top: 25%;
+z-index: 99999;
+mix-blend-mode: difference;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: hite;
+"></div>
+
+<div class="loading bar" id="a2">
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+     <div id="a2"></div>
+</div>
+  <script src="all scripts/script3.js"></script>
+    <script src="all scripts/script4.js"></script>
+      </div>
+
+
+      <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Custom Cursor -->
+<div id="cursor1">
+  <div class="cursor">
+    <div class="cursor__inner cursor__inner--circle"  style="transform: translateX(342px) translateY(305px) scale(1); opacity: 1;"></div>
+    <div class="cursor__inner cursor__inner--dot" style="transform: translateX(349px) translateY(312px);"></div>
+  </div>
+</div>
+<!-- END OF Custom Cursor -->
+
+
+<!-- PC WINDOW -->
+<div class="pcwindow" id="cursor3">
+
+
+
+<!-- Dynamic Island -->
+<div class="center1"  id="cursor2">  
+
+<!-- Background -->
+<div class="dynamic_island" id="d_island" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+
+<!-- Logo on Dynamic Island -->
+<div class="dynamiclogo" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></div>
+<!-- END OF Logo on Dynamic Island -->
+
+<!-- Button Custom Cursor (NO ACTIVE) -->
+<div class="dynamic_button1"></div>
+<!-- END OF Button Custom Cursor (NO ACTIVE) -->
+
+<!-- Button Standart Cursor (NO ACTIVE) -->
+<div class="dynamic_button2"></div>
+<!-- END OF Button Standart Cursor (NO ACTIVE) -->
+
+<!-- Contant Container -->
+<div class="content">
+
+<!-- Left Contant Container -->
+<div class="details">
+
+<!-- Logo (ACTIVE & NO ACTIVE) -->
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><div class="imgBox"></div></a>
+<!-- END OF Logo (ACTIVE & NO ACTIVE) -->
+
+<!-- Titles (NO ACTIVE) -->
+<div class="p1">Settings</div>
+<div class="p2">Cursors</div>
+<!-- END OF Titles (NO ACTIVE) -->
+
+</div>
+<!-- END OF Left Contant Container -->
+
+<!-- Cursor Setttings Butttons -->
+<div class="action" onclick="myFunction1()">
+<!-- Custom Cursor -->
+<div class="red"></div>
+</div>
+
+<div class="action" onclick="myFunction2()">
+<!-- Standart Cursor -->
+<div class="green"></div>
+</div>
+<!-- END OF Cursor Setttings Butttons -->
+
+</div>
+<!-- END OF Contant Container -->
+
+</div>
+<!-- END OF Background -->
+
+<div class="d_dot" id="dot1" onclick="myFunction3()" onmouseover="bigImg2(this)" onmouseout="normalImg2(this)">
+    <div class="d_dot2" id="dot2"></div>
+</div>
+
+</div>
+<!-- END OF Dynamic Island -->
+
+<div class="m1" id="m1">
+    <div style="
+display: flex;
+mix-blend-mode: darken;
+filter:none;
+/*background-color: rgba(0, 0, 0, 0.5);*/
+/*background-image: url('../img/Rectangle 1.png');*/
+/*background-color: white;*/
+width: 100%;
+height: 100%;
+    "></div>
+</div>
+
+<!-- Dynamic Island Script -->
+<script type="text/javascript">
+  "use strict";
+
+const dynamicIsland = document.getElementById("d_island");
+const dynamicToggle = document.getElementById("dot1");
+
+dynamicIsland.onclick = () => {
+    dynamicIsland.classList.toggle('active');
+    dynamicToggle.classList.toggle('active1');
+}
+
+function myFunction1() {
+    var x = document.getElementById("cursor1");
+  if (x.style.opacity === "1") {
+    x.style.cursor = "crosshair";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "crosshair";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "auto";
+  } else {
+    x.style.cursor = "crosshair";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "crosshair";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "auto";
+  }
+}
+
+function myFunction2() {
+    var x = document.getElementById("cursor1");
+  if (x.style.opacity === "0") {
+    x.style.opacity = "1";
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.cursor = "none";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+  } else {
+    x.style.opacity = "1";
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.cursor = "none";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+  }
+}
+
+function bigImg(x) {
+  document.getElementById("dot1").style.transform = "translateX(-30px)";
+    document.getElementById("dot1").style.boxShadow = "0px 0px 0px black";
+  document.getElementById("dot1").style.transition = "1s";
+}
+
+function normalImg(x) {
+    document.getElementById("dot1").style.transform = "translateX(0px)";
+  document.getElementById("dot1").style.boxShadow = "0px 0px 10px black";
+    document.getElementById("dot1").style.transition = "0.8s";
+}
+
+function bigImg2(x) {
+  document.getElementById("dot2").style.transition = "0.25s";
+  document.getElementById("dot2").style.opacity = "0.5";
+}
+
+function normalImg2(x) {
+    document.getElementById("dot2").style.transition = "0.25s";
+    document.getElementById("dot2").style.opacity = "1";
+}
+
+function bigImg3(x) {
+    if (document.getElementById("cursor1").style.opacity === "1") {
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.opacity = "1";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("slides").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+    console.log("1");
+  } else {
+    x.style.cursor = "crosshair";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "crosshair";
+    document.getElementById("slides").style.cursor = "crosshair";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor5").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "auto";
+    console.log("2");
+  }
+}
+
+function normalImg3(x) {
+    if (document.getElementById("cursor1").style.opacity === "1") {
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.opacity = "1";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("slides").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+    console.log("3");
+  } else {
+    x.style.cursor = "crosshair";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "crosshair";
+    document.getElementById("slides").style.cursor = "crosshair";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor5").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "auto";
+    console.log("4");
+  }
+}
+
+
+function bigImg4(x) {
+    if (document.getElementById("cursor1").style.opacity === "1") {
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.opacity = "1";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("slides").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+    console.log("5");
+  } else {
+    x.style.cursor = "auto";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "normal";
+    document.getElementById("slides").style.cursor = "normal";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor5").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "normal";
+    console.log("6");
+  }
+
+}
+
+function normalImg4(x) {
+    if (document.getElementById("cursor1").style.opacity === "1") {
+    x.style.cursor = "none";
+    document.getElementById("cursor1").style.opacity = "1";
+    document.getElementById("cursor2").style.cursor = "none";
+    document.getElementById("slides").style.cursor = "none";
+    document.getElementById("cursor3").style.cursor = "none";
+    console.log("7");
+  } else {
+    x.style.cursor = "auto";
+    document.getElementById("cursor1").style.opacity = "0";
+    document.getElementById("cursor2").style.cursor = "normal";
+    document.getElementById("slides").style.cursor = "normal";
+    document.getElementById("controls").style.cursor = "normal";
+    document.getElementById("cursor5").style.cursor = "normal";
+    document.getElementById("cursor3").style.cursor = "normal";
+    console.log("8");
+  }
+}
+
+
+
+
+function myFunction3() {
+    var x = document.getElementById("m1");
+  if (x.style.transform === "translateY(100vh)") {
+    document.getElementById("m1").style.transition = "2s";
+    document.getElementById("m1").style.transform = "translateY(-100vh)";
+    document.getElementById("dot2").style.animation = "flicker0 0s infinite alternate";
+  } else {
+    document.getElementById("m1").style.transition = "1s";
+    document.getElementById("m1").style.transform = "translateY(100vh)";
+      document.getElementById("dot2").style.animation = "flicker 8s infinite alternate";
+  }
+}
+
+function myFunction4() {
+    var x = document.getElementById("dot2");
+  if (dynamicIsland.classList.toggle('active')) {
+    document.getElementById("dot1").style.opacity = "0";
+  } else {
+    document.getElementById("dot1").style.opacity = "1";
+  }
+}
+
+</script>
+<!-- END OF Dynamic Island Script -->
+
+<!-- END OF Dynamic Island -->
+
+
+
+<!-- Header -->
+<div class="header" id="up">
+
+<!-- Logo ADMIN inc. -->
+<div class="logo1"></div>
+<!-- END OF Logo ADMIN inc. -->
+
+<!-- Title ADMIN inc. & I'm a -->
+<p><strong class="text1">ADMIN</strong><strong style="width:8px; height:8px; background-color:black; opacity: 0;"></strong><strong class="text2">inc.</strong></p>
+<p class="text3"><span class="element"></span></p>
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/administrati0n/main/main/img/logo.png">
+<!-- END OF Title ADMIN inc. & I'm a -->
+
+<!-- Mouse (link) -->
+<a href="#pr" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)">
+<div class="mousepos">
+<div class="mouse_scroll">
+
+<div class="mouse">
+<div class="wheel"></div>
+</div>
+<div>
+<span class="m_scroll_arrows unu"></span>
+<span class="m_scroll_arrows doi"></span>
+<span class="m_scroll_arrows trei"></span>
+</div>
+</div>
+</div>
+</a>
+<!-- END OF Mouse (link) -->
+
+</div>
+<!-- END OF Header -->
+
+<!-- 2 Page -->
+<!-- (NOTE) pr & pr2 - Settings For Background -->
+<!-- pr article -->
+<article id="pr">
+<!-- pr div -->
+<div class="pr">   
+<!-- pr div2 -->   
+<div class="pr2">
+
+<!-- Conic Gradient (Only PC) -->
+<div class="radar" id="2pg">
+<div class="shadow"></div>
+</div>
+<!-- END OF Conic Gradient (Only PC) -->
+
+<!-- Tittle -->
+<div class="title-pr">Projects</div>
+<!-- Title -->
+
+<!-- Blured Window -->
+<div class="c1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+
+<!-- Slides Container -->
+<div id="slides" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)">
+
+<!-- Slides Settings -->
+<input checked type="radio" name="slider" id="slide1" class="set" />
+<input type="radio" name="slider" id="slide2" class="set" />
+<input type="radio" name="slider" id="slide3" class="set" />
+<input type="radio" name="slider" id="slide4" class="set" />  
+<!-- END OF Slides Settings -->
+
+<!-- Mask For Slides -->
+<div class="mask" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">    
+
+<!-- Mask For Slides (1) -->
+<div class="overflow" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+
+<!-- 1 Slide -->
+<div class="slide" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl_l1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5"></div>
+<div class="sl_t1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">ADMIN inc.</div>
+<a href="#up" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"><button class="sb1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)">This Page</button></a>
+
+</div>
+</div>
+<!-- END OF 1 Slide -->
+
+<!-- 2 Slide -->
+<div class="slide" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl_l2" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5"></div>
+<div class="sl_t2" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">ADMIN STORE</div>
+<a href="#up" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"><button class="sb1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)">GO!</button></a>
+</div>
+</div>
+<!-- END OF 2 Slide -->
+
+<!--3 Slide -->
+<div class="slide" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl_l3" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5"></div>
+<div class="sl_t1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">XN1GHT</div>
+<a href="#up" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"><button class="sb1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)">GO!</button></a>
+</div>
+<!-- END OF 3 Slide -->
+
+<!-- 4 Slide -->
+</div>
+<div class="slide" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">
+<div class="sl_l4" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5"></div>
+<div class="sl_t1" onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" id="cursor5">OTHER</div>
+<a href="#up" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"><button class="sb1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)">GO!</button></a>
+</div>
+</div>
+<!-- END OF 4 Slide -->
+
+
+</div> 
+<!-- END OF Mask For Slides (1) -->
+
+</div>
+<!-- END OF Mask For Slides (1) -->
+
+<!-- Controllers For Slider -->
+<div id="controls" onclick="">  
+<label for="slide1"><div class="b1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"></div></label>
+<label for="slide2"><div class="b1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"></div></label>
+<label for="slide3"><div class="b1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"></div></label>
+<label for="slide4"><div class="b1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)"></div></label>    
+</div>
+<!-- END OF Controllers For Slider -->
+
+</div>
+<!-- END OF Slides Container -->
+
+</div>
+<!-- END OF Blured Window -->
+
+</div>
+<!-- END OF pr2 div -->
+
+</div>
+<!-- END OF pr div -->
+
+</article>
+<!-- END OF pr article -->
+<!-- END OF 2 Page -->
+
+
+
+<!-- Container About -->
+<article id="ab">
+
+<!-- div ab -->
+<div class="ab">
+
+<!-- Title -->
+<div class="title-pr2">About</div>
+<!-- END OF Title -->
+
+<!-- Text About -->
+<div style="overflow-y: scroll; height:80%; width: 80%; display: flex; position: relative; top: 85px;">
+Hello! My name is George! My nickname is ADMIN.
+<br>
+It's Main Page of ADMIN inc.
+It's OpenSource Project and you can copy my code to your projects.
+On this WebSite you can find many OpenSourse projects, Templates and other. 
+<br>
+ALL FOR FREE.
+<br>
+If you find bugs please type me. georgeiv14@icloud.com.
+<br>
+And if you like my work please donate.
+<br>
+More about me: I'm an artist. I created a lot of content. 3D models, Arts, WebSites, Mobile/PC Apps, different Adobe Projects (Templates) and miscelaneous other.
+<br>Have Fun! (:
+</div>
+<!-- END OF Text About -->
+
+</div>
+<!-- END OF div ab -->
+
+</article>
+<!-- END OF Container About -->
+
+<!-- Footer(1) -->
+<div style="color: white; height: 220px; width: 100%; background-color:black; margin-left: auto; margin-right: auto; display: flex; border: 2px solid; border-color: gray; border-left: none; border-right: none;">
+
+
+<div style="display: flex; position: inherit; margin-left: auto; auto; width:100%; background-color:black;">
+<div style="width:25%; height: 100%; margin-left: auto; background-color: rgba(0, 0, 0, 0.5);"><p style="justify-content: center;">
+<p style="justify-content: center; font-size: 1.8em;">Projects</p><br>
+
+<p style="justify-content: center;"><a href="#up"  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" style="color: white; font-size: 0.8em;" class="ah">ADMIN inc.</a></p><br>
+
+<p style="justify-content: center;">
+<a href="https://administrati0n.github.io/Admin-Store/"  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">Admin Store</a>
+</p><br>
+<p style="justify-content: center;">
+<a href=""  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">XN1GHT</a>
+</p><br>
+<p style="justify-content: center;">
+<a href=""  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">Other</a>
+</p><br>
+</div>
+
+
+
+<div style="width:300px; height: 100%;  background-color: rgba(0, 0, 0, 1.5); margin: auto;">
+
+<div style="align-items: center; padding-top: 30px; position:revert;">
+<p style="justify-content: center;">
+<div class="logo2"></div>
+</p><br>
+<p style="justify-content: center; font-size: 1.1em; display:flex; position:revert; bottom: 5%;">Admin inc.
+</div>
+</div>
+
+
+
+<div style="width:25%; height: 100%; margin-right: auto; background-color: rgba(0, 0, 0, 0.5);"><p style="justify-content: center;">
+<p style="justify-content: center; font-size: 1.8em;">Social</p><br>
+
+<p style="justify-content: center; font-size: 0.8em;"><a href="https://www.reddit.com/user/AntAdministrative549"  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white;" class="ah">Redit</a></p><br>
+
+<p style="justify-content: center;">
+<a href="https://www.instagram.com/_george_.jpg/"  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">Instagram</a>
+
+</p><br>
+<p style="justify-content: center;">
+<a href="https://github.com/administrati0n"  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">GitHub</a>
+</p><br>
+<p style="justify-content: center;">
+<a href=""  onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 0.8em;" class="ah">Links</a>
+</p><br>
+</div>
+
+</div>
+
+</div>
+<!-- END OF Footer(1) -->
+
+
+<!-- Footer(2) -->
+<div style="width: 100%; height:50px; color:white;display:flex; font-size: 0.8em;">
+<p style="display:flex; margin-left: auto; margin-right: auto; margin-bottom: auto;">
+ADMIN inc. 2020 - Right Now!
+</p>
+</div>
+<!-- END OF Footer(2) -->
+
+
+</div>
+<!-- END OF PC WINDOW -->
+
+<div class="mobwindow">
+  <div style="background-color: red;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;">
+  <div style="width:100%; height:30%; background-image: url('img/mlogo.png'); background-repeat:no-repeat; background-position: center center; background-color: rgba(0, 0, 0, 0.5); background-size: contain;"></div>
+  <div style="background-color:black; width:100%; height:5vh;"></div>
+  <a href=""><button class="mb1">GO!</button></a>
+</div>
+</div>
+
+
+
+<!-- Pinned Buttons (ONLY PC) -->
+<a href="#up" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"><button class="btn1" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"></button></a>
+<a href="#pr" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"><button class="btn2" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"></button></a>
+<a href="#ab" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"><button class="btn3" onmouseover="bigImg3(this)" onmouseout="normalImg3(this)" id="cursor2"></button></a>
+<!-- END OF Pinned Buttons (ONLY PC) -->
+<!--       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/main.js"></script> -->
+</body>
+</html>
