@@ -32,6 +32,7 @@
   border-radius: 5px;
 /*  font-size: 1.2rem;*/
 font-size: 5vh;
+  font-family: Samsung Sharp Sans;
   cursor: pointer;
   border: 2px solid white;
   transition: background-color 0.2s ease-in-out;
