@@ -74,7 +74,7 @@ function feedbacker() {
         
         document.getElementById("w1").style.overflow = "auto";
         document.getElementById("w1").style.overflowX = "hidden";
-        document.getElementById("a1").scrollIntoView();
+//         document.getElementById("a1").scrollIntoView();
         document.getElementById("a2").style.opacity = "1";
         // document.getElementById("1pg").style.display = "flex";
       }
