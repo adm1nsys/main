@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404!</title>
+  <link rel="shortcut icon" href="img/logoico1.ico" type="image/x-icon">
+<link rel="icon" href="img/logoico32.png" sizes="32x32">
+<link rel="icon" href="img/logoico48.png" sizes="48x48">
+<link rel="icon" href="img/logoico96.png" sizes="96x96">
+<link rel="icon" href="img/logoico144.png" sizes="144x144">  
+  <style type="text/css">
+    @font-face { font-family: Samsung Sharp Sans; src: url('fonts/Font1.otf'); } 
+body{
+  background-color: black;
+      font-family: Samsung Sharp Sans;
+  margin: 0px; 
+  padding: 0px; 
+  height: 100%;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color: white;
+font-size: 15vh;
+text-align: center;
+transition: 0.8s;
+}
+
+.ws{
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+  margin-left: auto;
+  font-size: 5vh;
+    z-index: 9999;
+/*  margin-top: 30vh;*/
+  mix-blend-mode: difference;
+  color: white;
+width: 10vh;height: 10vh;background-image: url('img/logo.png');background-position: center;background-size: 10vh;}
+
+
+
+a{
+  position: relative;
+  z-index: 99999999;
+  font-size: 5vh;
+  text-decoration: none;
+  color: white;
+  border: 0.3vh solid white;
+  border-radius: 999px;
+  padding: 1vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  transition: 0.8s;
+  mix-blend-mode: difference;
+
+}
+
+a:hover{
+  font-size: 5vh;
+  text-decoration: none;
+  color: black;
+  border: 0.3vh solid white;
+  border-radius: 999px;
+  padding: 1vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  background-color: white;
+  transition: 0.8s;
+  cursor: crosshair;
+}
+
+.title{
+  z-index: 9999;
+  margin-top: 30vh;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.inv{
+/*  z-index: -999991;*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+/*    -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);*/
+/*  mix-blend-mode: difference;*/
+}
+
+.c1{
+  z-index: 3;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.mod .project-name {
+  z-index: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  line-height: 1.5em;
+  mix-blend-mode: difference;
+}
+.mod .cube {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -105px;
+  margin-left: -105px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 105px 105px;
+  animation: spinCube 9000ms linear infinite;
+}
+.mod .cube .faces {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+  height: 210px;
+}
+.mod .cube .faces .dot {
+  position: absolute;
+  width: 0.3vh;
+  height: 0.3vh;
+  border-radius: 50%;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p1 {
+  top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p2 {
+  top: -1px;
+  left: 50%;
+  margin-left: - 1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p3 {
+  top: -1px;
+  left: 100%;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p4 {
+  top: 50%;
+  left: -1px;
+  margin-top: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p5 {
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p6 {
+  top: 50%;
+  left: 100%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p7 {
+  top: 100%;
+  left: 0%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p8 {
+  top: 100%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p9 {
+  top: 100%;
+  left: 100%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p10 {
+  top: 25%;
+  left: 25%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p11 {
+  top: 25%;
+  left: 75%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p12 {
+  top: 75%;
+  left: 25%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .faces .p13 {
+  top: 75%;
+  left: 75%;
+  margin-top: -1px;
+  margin-left: -1px;
+        -webkit-backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
+
+}
+.mod .cube .f1 {
+  -webkit-transform: translateZ(-105px);
+  animation-delay: 0.3s;
+}
+.mod .cube .f2 {
+  -webkit-transform: translateZ(-84px);
+  animation-delay: 0.6s;
+}
+.mod .cube .f3 {
+  -webkit-transform: translateZ(-63px);
+  animation-delay: 0.9s;
+}
+.mod .cube .f4 {
+  -webkit-transform: translateZ(-42px);
+  animation-delay: 1.2s;
+}
+.mod .cube .f5 {
+  -webkit-transform: translateZ(-21px);
+  animation-delay: 1.5s;
+}
+.mod .cube .f6 {
+  -webkit-transform: translateZ(0px);
+  animation-delay: 1.8s;
+}
+.mod .cube .f7 {
+  -webkit-transform: translateZ(21px);
+  animation-delay: 2.1s;
+}
+.mod .cube .f8 {
+  -webkit-transform: translateZ(42px);
+  animation-delay: 2.4s;
+}
+.mod .cube .f9 {
+  -webkit-transform: translateZ(63px);
+  animation-delay: 2.7s;
+}
+.mod .cube .f10 {
+  -webkit-transform: translateZ(84px);
+  animation-delay: 3s;
+}
+.mod .cube .f11 {
+  -webkit-transform: translateZ(105px);
+  animation-delay: 3.3s;
+}
+@-webkit-keyframes spinCube {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(-45deg) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg) rotateX(135deg) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateX(315deg) rotate(360deg);
+  }
+}
+@-webkit-keyframes spinDots {
+  0% {
+    -webkit-transform: rotateX(0deg) rotateY(45deg);
+  }
+  50% {
+    -webkit-transform: rotateX(-180deg) rotateY(-135deg);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg) rotateY(-315deg);
+  }
+}
+@-webkit-keyframes spinFaces {
+  0% {
+    -webkit-transform: rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+  }
+}
+
+
+
+  </style>
+
+
+
+</head>
+<body>
+<div class="mod">
+  <div class="cube">
+    
+    <div class="faces f1">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+    
+    <div class="faces f2">
+      
+      <div class="dot p10"></div>
+      <div class="dot p11"></div>
+      <div class="dot p12"></div>
+      <div class="dot p13"></div>
+  
+    </div>
+    
+    <div class="faces f3">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+  
+    <div class="faces f4">
+      
+      <div class="dot p10"></div>
+      <div class="dot p11"></div>
+      <div class="dot p12"></div>
+      <div class="dot p13"></div>
+  
+    </div>
+  
+    <div class="faces f5">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+  
+    <div class="faces f6">
+      
+      <div class="dot p10"></div>
+      <div class="dot p11"></div>
+      <div class="dot p12"></div>
+      <div class="dot p13"></div>
+  
+    </div>
+  
+    <div class="faces f7">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+  
+    <div class="faces f8">
+      
+      <div class="dot p10"></div>
+      <div class="dot p11"></div>
+      <div class="dot p12"></div>
+      <div class="dot p13"></div>
+  
+    </div>
+  
+    <div class="faces f9">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+  
+    <div class="faces f10">
+      
+      <div class="dot p10"></div>
+      <div class="dot p11"></div>
+      <div class="dot p12"></div>
+      <div class="dot p13"></div>
+  
+    </div>
+  
+    <div class="faces f11">
+      
+      <div class="dot p1"></div>
+      <div class="dot p2"></div>
+      <div class="dot p3"></div>
+      
+      <div class="dot p4"></div>
+      <div class="dot p5"></div>
+      <div class="dot p6"></div>
+      
+      <div class="dot p7"></div>
+      <div class="dot p8"></div>
+      <div class="dot p9"></div>
+  
+    </div>
+    
+  </div>
+      <div class="inv"></div>
+  <div class="c1">
+<div class="title">404</div>
+<div style="border-radius: 999px; z-index: 99999;"><a href="index.html">Home</a></div>
+  
+</div>
+  
+</div>
+
+<div class="ws"></div>
+
+<script type = "text/javascript">
+  var msg =
+    " Error 404 ";
+  var chars = Array.from(msg);
+
+  function scrollTitle() {
+    chars.push(chars.shift());
+    document.title = chars.join("");
+    window.setTimeout(scrollTitle, 100);
+  }
+
+  (function() {
+    scrollTitle();
+  })();
+</script>
+
+
+</body>
+</html>
