@@ -2,7 +2,7 @@ document.getElementById("a1").scrollIntoView();
   document.getElementById("w1").style.cursor = "none";
   document.getElementById("w1").style.overflow = "hidden";
   document.getElementById("a2").style.opacity = "0";
-  document.getElementById("corning").style.display = "none";
+//   document.getElementById("corning").style.display = "none";
   var textarea = $('.term');
 var speed = 50;
 var text = 'sh admin_website.sh';
