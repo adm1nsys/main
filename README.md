@@ -1,3 +1,3 @@
 # ADMIN inc.
 
-https://administrati0n.github.io/main/
+https://adm1nsys.github.io/main/
